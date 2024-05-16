@@ -1,0 +1,155 @@
+/* -----------------------------------footer --------------------------------------------*/
+
+footer {
+    background-color: #f5f5f5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.piedepagina {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer-color {
+    text-decoration: none;
+    color: #212529
+}
+
+.footer-color:hover{
+    color:rgb(121, 120, 120);
+}
+
+/* --------------------------------- fin footer --------------------------------------------*/
+
+
+/* --------------------------------- body --------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Amplify{
+    font-size: 50px;
+}
+.Inicio {
+    text-decoration: none;
+    color: black;
+}
+
+h2, h3 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* --------------------------------- contenedor --------------------------------------------*/
+
+/*--------------------------------- INDEX ---------------------------------*/
+
+
+.contenedor-Index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px;
+    padding: 20px;
+}
+
+.card .row {
+    align-items: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oferta:hover {
+    transition: all 0.3s;
+    transform: scale(1.08);
+}
+
+
+
+/*--------------------------------- PRODUCTOS ---------------------------------*/
+.comprar:hover{
+    transform: scale(1.07);
+    transition: all 0.3s;
+
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-text{
+    font-family:'Calibri', 'Gill Sans','Gill Sans MT','Trebuchet MS', 'sans-serif';
+    font-size: 13px;
+
+}
+
+/*--------------------------------- CONTACTOS ---------------------------------*/
+.contenedor img {
+    width: 80px;
+    height: 80px;
+    transition: all 1s;
+}
+
+.contenedor img:hover {
+    transform: rotate(360deg);
+}
+
+
+.contenedor {
+    margin: 20px 100px;
+    padding: 20px;
+    
+    
+    
+}
+
+.testimonio{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 60px;
+    
+}
+
+.testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* --------------------------------- fin body --------------------------------------------*/
